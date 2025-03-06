@@ -1,0 +1,84 @@
+
+html{
+   scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(45deg,rgb(56, 158, 56),rgb(78, 177, 142),rgb(218, 91, 91));
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 40px;
+background: linear-gradient(45deg,red,black,red);
+color: white;
+padding: 10px;
+width: 300px;
+margin: auto;
+box-shadow: 0 0 10px black;
+
+}
+table{
+ width: 100%;
+}
+img{
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px red;
+}
+h1{
+    background-color: rgb(90, 53, 90);
+    border-radius: 40px;
+ padding: 10px;
+ width: 500px;
+ display: inline-block;
+box-shadow: 0 0 20px rgb(7, 0, 0);
+}
+#orange{
+  
+    color: rgb(115, 9, 157);
+    
+    
+}
+
+
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 40px;    
+background: linear-gradient(45deg,red,black,red);
+color: white;
+                padding: 10px;
+padding-bottom: 10px;
+width: 300px;
+margin: auto;
+box-shadow: 0 0 10px black;
+
+}
+#black :hover{ 
+    color: rgb(251, 251, 253);
+    background-color: black;
+    padding: 10px;
+    transition: 0.5s;
+ }
+ #footer :hover{
+background-color: black;
+color: white;
+transition: 0.2s;
+padding: 5px;
+ }
+.box{
+    
+}
+.box :hover{
+    transform:scale(1.1) ;
+    z-index: 2;
+
+box-shadow: 0 0 20px rgb(76, 237, 98);
+   
+
+    
+}
+ 
+                                                                                        
