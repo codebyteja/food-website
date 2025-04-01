@@ -1,0 +1,654 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 252, 252);
+    color: white;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 50px;
+    height: 70px;
+    align-items:center;
+  
+    
+}
+.logo img{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+
+
+    
+    
+}
+.links{
+    display: flex;
+   list-style: none;
+  gap: 40px;
+  position: relative;
+  z-index: 10;
+
+
+}
+.links li a{
+    text-decoration: none;
+  color: black;
+
+font-size: 25px;
+display: inline-block;
+
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon i{
+    font-size: 15px;
+    color: black;
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+
+}
+.hero{
+   
+    width: 100%;
+    height: 500px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 50px;
+
+   
+   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    font-size: 90px;
+    width: 50%;
+
+}
+.hero img{
+    width: 600px;
+    height: auto;
+}
+
+#one{
+    color: rgb(61, 220, 90);
+    font-weight:90px;
+
+    font-family: cursive;
+}
+#two{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(109, 31, 5);
+}
+#three{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button{
+  
+    display: flex;
+    width: 80px;
+    margin:10px;
+
+}
+
+
+
+.links li a:hover{
+  
+    background-color: rgb(222, 246, 137) !important;
+  
+  transform: scale(1.1);
+    transition: all 0.5s ;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(16, 23, 24);
+    border-radius: 20px;
+    color: darkgreen;
+}
+#button{
+    box-shadow: 2px 5px 2px rgb(43, 75, 80);
+   background-color: aqua;
+    padding: 0 0 10px;
+  color: darkred;
+    height: 20px;
+    width: 80px;
+    padding-left: 2px;
+    transition: transform 0.3s ease-in-out;
+   
+   
+}
+#button:hover{
+    transform: scale(1.1);
+   
+}
+#button:active{
+    transform: scale(1);
+}
+
+.icon i:hover{
+    color: green;
+    transition: all 0.5s;
+    transform: scale(1.2,1.2);
+}
+
+
+.second{
+   
+    width: 410px;
+    height: 450px;
+    
+overflow: hidden;
+    border-radius: 20px;
+ 
+ display: inline-block;
+justify-content: space-between;
+}
+.menu {
+color: black;
+text-align: center;
+margin-bottom: 20px;
+font-style: oblique;
+font-weight: 40px;
+color: coral;
+font-size: 50px;
+
+
+
+
+
+}
+.images img{
+    width: 400px;
+    margin-left: 20px;
+    height:auto;
+   object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 10px darkgreen;
+    overflow: hidden;
+    
+}
+.images img:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+   border-radius: 20px;
+ 
+   box-shadow: 0 0 20px black;
+   
+  
+}
+.imginfo p{
+    color: rgb(245, 121, 77);
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    font-weight: 20px;
+
+}
+.imginfo h3{
+    color: rgb(22, 21, 21);
+    text-align: center;
+    margin-top: 10px;
+}
+.imginfo h2{
+   color: rgb(109, 163, 107);
+  text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 20px;
+}
+.box2{
+    border: 10px solid red;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+.Juices{
+    
+  
+   border-radius: 20px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(118, 118, 50);
+    font-size: 68px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.teja{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+   
+    
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.left1{
+    color: rgb(121, 59, 169);
+    font-size: 50px;
+    font-weight: 100px;
+  font-style: italic;
+   
+   
+}
+.left2{
+    color: rgb(228, 26, 26);
+    font-size: 50px;
+    font-weight: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.drink{
+    background: url(/imges/Many_different_smoothies_with_berries_and_fruits_Generative_AI___Premium_AI-generated_image-removebg-preview.png);
+    width: 800px;
+    height: 500px;
+background-size: cover;
+
+
+
+}
+.sectionjuice{
+   display: flex;
+   text-align: center;
+   
+width: 400px;
+height: 450px;
+display: inline-block;
+
+}
+.fruit img{
+    width: inherit;
+ height: 300px;
+  
+    border-radius: 20px;
+    box-shadow: 0 0 10px violet;
+   
+}
+.fruit img:hover{
+    transition: all 0.8s;
+    transform: scale(1.1);
+    border-radius: 90px;
+    box-shadow: 0 0 20px greenyellow;
+}
+.fruit {
+    color: black;
+    padding-bottom: 10px;
+
+}
+ .info{
+   color: blueviolet;
+   font-weight: 30px;
+   font-style: italic;
+   padding-top: 10px;
+}
+.rate{
+    color: black;
+    padding-top: 20px;
+}
+
+.photo{
+    
+   
+    width:400px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px black;
+ border-radius: 20px;
+
+ display: inline-block;
+
+  
+}
+.photo-container {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing */
+    flex-wrap: wrap; /* Prevents overflow */
+    gap: 20px; /* Adds space between items */
+
+}
+
+.photo img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+    
+
+   
+
+
+}
+.photo h1{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   background-color: rgb(178, 228, 208);
+}
+.photo .words{
+    bottom: -28%;
+    position: absolute;
+   background: linear-gradient(46deg,blueviolet,lightgreen);
+   color: white;
+   padding: 10PX;
+   transition: all 0.5s;
+ 
+
+
+}
+.photo:hover .words{
+    bottom: 0%;
+}
+.photo:hover img{
+    transform: translateY(-28%);
+
+}
+.last{
+   
+ 
+  color: rgb(156, 219, 67);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 10px;
+  font-weight: 20px;
+  font-size: 30px;
+  
+}
+.last span{
+    color: rgb(179, 69, 44);
+    font-style: italic;
+}
+.footer{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.socialicon i{
+    padding: 5px;
+
+    
+  
+
+}
+.socialicon a i{
+   
+    color: black;
+ 
+}
+
+  .socialicon a i:hover{
+   background-color: rgb(9, 9, 9);
+   border-radius: 50%;
+   color: white;
+  transform: scale(1.1);
+  transform: all 0.8s;
+  box-shadow: 0 0 10px wheat;
+  
+ 
+  } 
+  .footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+  }
+  .footernav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+ 
+  }
+  .footer ul li a:hover{
+    background-color: black;
+   color: white;
+   border-radius: 40px;
+   box-shadow: 0 0 10px wheat;
+  
+  }
+ .footerbottom p{
+color: black;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/*-------mobile screen--------*/
+@media (max-width:500px){
+    body{
+        background-color: rgb(9, 225, 9);
+        
+      
+    }
+ 
+    
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 0px 20px 0px 20px;
+        height: 50px;
+        align-items:center;
+        color: rgb(3, 3, 3);
+        
+    }
+    .links{
+      gap: 20px;
+    
+    }
+
+.links li a{
+  color: black;
+font-size: 15px;
+
+
+
+
+
+
+}
+    .icon i{
+        font-size: 15px;
+        color: rgb(4, 4, 4);
+      
+       width: 20px;
+       
+      
+        
+    
+    }
+    .logo img{
+        width: 120px;
+        height: auto;
+       
+        
+    }
+    .hero{
+   
+        width: 90%;
+        height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #one {
+        font-size: 50px;
+        color: rgb(223, 12, 86);
+        
+    }
+    #two{
+display: flex;
+text-align: center;
+
+        font-size: 50px;
+      
+    }
+    #three{
+        text-align: center;
+        text-shadow: 0 0 5px rgb(104, 104, 93);
+        font-size:30px ;
+        font-style: italic;
+        
+    }
+    #button{
+        box-shadow: 2px 5px 2px rgb(43, 75, 80);
+       background-color: aqua;
+        padding: 0 0 10px;
+      color: darkred;
+        height: 20px;
+        width: 80px;
+        padding-left: 2px;
+        transition: transform 0.3s ease-in-out;
+       
+       
+    }
+    
+        
+
+    .links li a:hover{
+        background-color: rgb(6, 250, 38);
+      transform: scale(1.1);
+        transition: all 0.5s ;
+        padding: 5px;
+        box-shadow: 0 0 10px rgb(239, 252, 253);
+        border-radius: 5px;
+        color: darkgreen;
+    }
+
+
+    .icon i:hover{
+        color: white;
+        transform: scale(1.2,1.2);
+        transition: all 0.5s;
+
+    }
+    #button:hover{
+        transform: scale(1.1);
+       
+    }
+    #button:active{
+        transform: scale(1);
+    }
+    
+        /* Menu Section */
+        .second {
+            width: 100%;
+            height: auto;
+            border: 5px solid red;
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+        .menu {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+    
+        .images img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px darkgreen;
+        }
+    
+        .imginfo h2,
+        .imginfo h3,
+        .imginfo p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+    
+        /* Juice Section */
+        .sectionjuice {
+            width: 100%;
+            height: auto;
+            border: 5px solid red;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+        .Juices {
+            font-size: 40px;
+            padding: 5px;
+        }
+    
+        .fruit img {
+            width: 90%;
+            height: auto;
+            border-radius: 15px;
+        }
+    
+        .info {
+            font-size: 18px;
+            padding: 5px;
+        }
+    
+        .rate {
+            font-size: 20px;
+            padding-top: 10px;
+        }
+    
+        /* Our Team Section */
+        .photo-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .photo {
+            width: 90%;
+            height: auto;
+            margin: 20px auto;
+        }
+    
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .photo .words {
+            font-size: 16px;
+            padding: 8px;
+        }
+    }
+    
+}
